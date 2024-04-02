@@ -328,7 +328,7 @@ void client(Character* p)
 {
     char s[100];    
     sprintf_s(s, "Name: %s Attack: %d Speed: %d Health: %d Defense: %d", p->GetName().c_str(),
-        p->GetAttack(), p->GetSpeed(), p->GetHealth(), p->GetDefense());    
+        p->GetAttack(), p->GetSpeed(), p->GetHealth(), p->GetDefense());        
     cout << s << endl;  
 }
 
